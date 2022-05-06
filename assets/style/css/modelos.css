@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar&family=Anybody:wght@300&family=Rock+3D&family=Source+Code+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Akshar', sans-serif;
+    font-family: 'Anybody', cursive;
+    font-family: 'Rock 3D', cursive;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.background-all {
+    display: flex;    
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: #ecf3f1;
+}
+
+.flex-content {
+    flex: 1;
+}
+
+.veiculos {
+    max-width: 3000px;
+    margin: 0 auto;
+    font-size: 20px;
+    padding: 1rem;
+}
+
+.suvs {
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.compactos {
+    text-align: center;
+    padding-top: 20rem;
+}
+
+.menu {
+    border-radius: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 60px;
+    box-shadow: 0 0 10px rgba(0 0 0 / 80%);
+    background-color: #ff5004;
+}
+
+.menu-text {
+    display: flex;
+    position: absolute;
+    left: 8px;
+    top: -8px;
+    padding: 8px;
+    width: 140px;
+    transition-duration: 0.4s;
+}
+
+.menu-text:hover {
+    transform: scale(0.80);
+}
+
+#primeirafileira {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+#primeirafileira h1 {
+    align-items: center;
+    text-align: center;
+}
+
+.primeirocarro {
+    margin: 3%;
+    place-items: center;
+    border-radius: 10px;
+    width: 400px;
+    max-width: 100%;
+    background: #eee;
+    box-shadow: 0 2px 5px #00000066;
+    overflow: hidden;
+}
+
+.primeiro {
+    box-shadow: 0 5px 8px #00000066;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.primeiro img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    transition: transform .75s;
+}
+
+.primeiro img:hover {
+    transform: scale(1.15);
+}
+
+.titulo {
+    background-color: #eee;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    color: #ecf3f1;
+    background-color: #ff5004;
+    box-shadow: 0 0 12px 0 rgba(0 0 0 / 80%);
+}
