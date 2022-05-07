@@ -86,6 +86,10 @@
     cursor: pointer;
 }
 
+.qalabel:hover {
+    border: 2px solid #ecf3f1;
+}
+
 #submitbutton {
     background-color: #ff5004;
     border: 2px solid #fff;
