@@ -15,7 +15,7 @@ function Login() {
 
     if (email["value"] == "email@gmail.com" && password["value"] == "1234567") {
         alert("Cadastro correto! Bem-vindo.")
-        document.getElementById("formInfo").action = "qaconstrucao.html";
+        document.getElementById("formInfo").action = "login-painel.html";
     } else {
         alert("Cadastro incorreto.")
     }
